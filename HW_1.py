@@ -7,7 +7,7 @@
 day = int(input('Введите номер дня недели: '))
 if day == 6 or day == 7:
     print('Это выходной')
-if day < 6:
+elif day < 6:
     print('Это будний день')
 else:
     print('Такого дня нет')
