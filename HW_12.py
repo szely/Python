@@ -9,12 +9,12 @@ import math
 my_list_1 = [2, 3, 4, 5, 6]
 my_list_2 = [2, 3, 5, 6]
 
-def Pairs(this_list):
+def pairs(this_list):
     for i in range(math.ceil(len(this_list)/2)):
         my_prod = this_list[i]*this_list[len(this_list)-1-i]
         print(my_prod)
 
 print(f'Произведение пар чисел списка {my_list_1} равно: ')
-Pairs(my_list_1)
+pairs(my_list_1)
 print(f'Произведение пар чисел списка {my_list_2} равно: ')
-Pairs(my_list_2)
+pairs(my_list_2)
